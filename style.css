@@ -1,0 +1,376 @@
+*{
+    margin: 0 auto;
+    padding:0 ;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    line-height: 30px;
+}
+.head{
+    font-size: 18px;
+    min-height: 100px;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+    box-shadow: 0px 4px 3px gray;
+}
+.logo_counter{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.head_text{
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter{
+    width: 90%;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-image: url(img/low-angle-photo-of-balconies-2462015\ 1.png);
+    width: 100%;
+}
+.slider_h1, .slider_text , .slider_btn{
+    color: white;
+}
+.slider_counter{
+    padding-top: 10%;
+    padding-left: 2%;
+}
+.slider_h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+.slider_text{
+    font-size: 35px;
+    margin-top: 3%;
+    line-height: 50px;
+}
+.slider_btn{
+    margin-left: 0;
+    font-size: 20px;
+    margin-top: 6%;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    height: 78px;
+    max-width: 10%;
+    background-color:#FF9900 ;
+}
+.dots{
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    width: 10%;
+    
+}
+.dot{
+    min-height: 50px;
+    font-size: 30px;
+}
+.informationn{
+    margin-top: 10%;
+    max-width: 75%;
+    margin-left: 0;
+}
+.information_header{
+    font-size: 35px;
+}
+.information_text{
+    margin-top: 5%;
+    font-size: 20px;
+}
+.information_img{
+    position: relative;
+    
+    width: 868px;
+    height: 622px;
+    margin-left: 0;
+    background-image: url("img/Rectangle\ 2.png");
+   
+}
+.img_block{
+    height: 196px;
+    top: 426px;
+    position: absolute;
+width: 100%;
+    background-color: rgba(39,47,51, 0.5);
+display: grid;
+align-items: center;
+ 
+}
+.img_block_text{
+    
+    color: white;
+    width: 454px;
+    height: 96px;
+}
+.img_block_counter{
+display: grid;
+grid-template-columns: 2fr 1fr;
+align-items: center;
+    width: 90%;
+    
+}
+.img_block_btn{
+   
+    background-color: transparent;
+    border-color:#FF9900; 
+    color: white;
+    width: 175px;
+    height: 60px;
+}
+
+.info_left_right{
+   
+    margin-top: 5%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.3fr  1fr;
+}
+.hight_block,.low_block{
+    display: grid;
+    align-items: center;
+    height: 295px;
+    width: 100%;
+    border: 2px gray solid;
+}
+.block_counter{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+    align-items: center;
+    width:90% ;
+    margin: auto;
+}
+.block_text_h{
+    margin-left: 50px;
+}
+.hight_block_text,.low_block_text{
+    margin-top: 5%;
+}
+.low_block{
+    margin-top: 27px;
+}
+.how_work{
+    margin-top: 5%;
+}
+.steps{
+    margin-top: 3%;
+    margin-left: 0;
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.step{
+    transition: 0.3s;
+    width: 100%;
+}
+.step:hover{
+    color:#FF9900 ;
+}
+
+.how_work_h{
+    font-size: 48px;
+}
+
+.main_left_text{
+    margin-top: 5%;
+   
+}
+
+.main_left_butons{
+    margin-top: 5%;
+    display: flex;
+    width: 60%;
+    margin-left: 0;
+    justify-content: space-between;
+}
+
+.main_left_buton{
+    margin-left: 0;
+    width: 175px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px black solid ;
+    color: black;
+}
+.main_left_buton:hover{
+    transition: 0.3s;
+background-color: #FF9900;
+border: none;
+color: white;
+}
+
+.how_work_main{
+    margin-top: 5%;
+  display:flex;
+  width: 100%;
+}
+
+.main_left_text{
+    width: 90%;
+    margin-left: 0;
+}
+.questions{
+    margin-top: 5%;
+    width: 100%;
+}
+.questions_counter{
+    display: flex;
+   
+    height: 110px;
+    align-items: center;
+    border-bottom:  1px  grey solid;
+    
+}
+.questions_text,.questions_h{
+   margin-left: 0;
+}
+.questions_btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 35px;
+    margin-right: 0;
+    border: none;
+}
+.main_right_img{
+    width: 600px;
+}
+.footer{
+    background-color:rgba(34, 34, 34, 1) ;
+    
+   
+}
+.footer_counter{
+    width: 90%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+.footer_left{
+
+    margin-top: 50px;
+margin-left: 0;
+}
+.questions_h{
+    margin-left: 0;
+}
+.footer_left_a{
+    color: white;
+}
+.footer_left_text{
+    margin-top: 5%;
+}
+.footer_left_imgs{
+    margin-top: 90px;
+    justify-content: space-between;
+}
+.footer_imgs{
+    margin-left:25px ;
+    
+}
+.footer_center{
+    margin-top: 50px;
+    margin-left: -10px;
+}
+.footer_center_h{
+    color: white;
+    
+}
+.footer_registration,.footer_message{
+    border: none;
+    background-color: rgba(65, 65, 65, 1);
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    margin-top: 25px;
+    color: rgba(202, 202, 202, 1);
+    padding-left: 10px;
+}
+.footer_message{
+    height: 150px;
+}
+.footer_center_btns{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+}
+.center_ch_text{
+    color: white;
+}
+.footer_center_btn{
+    margin-left: 0;
+    color: white;
+    background-color: #FF9900;
+    width: 269px;
+    border: none;
+}
+.footer_center_ch{
+    display: flex;
+    align-items: center;
+    margin-left:22px ;
+    margin-right: 0;
+    
+}
+.center_ch_mark[type="checkbox"] {
+    display: none;
+    
+  }
+   
+  
+  label {
+    color: #000;
+    cursor: default;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 10px 0;
+    vertical-align: middle;
+  }
+   
+  
+  label:before {
+    content: " ";
+    color: #000;
+    display: inline-block;
+    font: 10px Arial;
+    margin-right: 15px;
+    
+    text-align: center;
+    text-indent: 0px;
+    width: 15px;
+    height: 15px;
+    background: #FFF;
+    margin-top: 10px;
+    color: green;
+    
+  }
+   
+  
+  input:checked + label:before {
+    content: "✓";
+  }
+ 
+  
+.center_ch_text{
+    margin-left: 4px;
+}
+.footer_right{
+    margin-top: 90px;
+    margin-left:200px ;
+   
+}
+.footer_right_text{
+    color: white;
+}
